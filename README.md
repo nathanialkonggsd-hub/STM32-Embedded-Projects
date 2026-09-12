@@ -18,10 +18,10 @@
 - MPU6050
 - ESP8266
 - OLED
+- 7 寸 TFT LCD 液晶显示模块
 - 面包板
 
 ### 后续计划添置
-- SPI TFT 液晶屏
 - RC522 RFID 射频识别模块
 - MAX485 / RS485 模块
 - HC-SR04 超声波测距模块
@@ -29,6 +29,8 @@
 - 4×4 矩阵键盘
 - DS18B20 温度传感器
 - TB6612FNG 电机驱动模块
+
+> 7 寸 TFT LCD 已经购入，后续将作为图形界面和综合项目的人机交互设备重点使用。具体驱动方式根据屏幕实际接口确定。
 
 ## 🗺️ 学习路线
 
@@ -39,9 +41,11 @@ GPIO / EXTI / UART / TIM / ADC
       ↓
 I²C / SPI
       ↓
-OLED / MPU6050 / RC522 / TFT
+OLED / MPU6050
       ↓
-PWM / 舵机 / 超声波 / 电机
+7 寸 TFT LCD / 图形界面 / 触摸交互
+      ↓
+RC522 / 舵机 / 超声波 / 电机
       ↓
 ESP8266 / Wi-Fi
       ↓
@@ -61,7 +65,7 @@ FreeRTOS
 | `03_TIMER_PWM` | 定时器 / PWM | 计划中 |
 | `04_OLED` | OLED / I²C | 计划中 |
 | `05_MPU6050` | 姿态传感器 / I²C | 计划中 |
-| `06_TFT` | TFT / SPI / 图形界面 | 计划中 |
+| `06_TFT` | 7 寸 TFT LCD / 图形界面 | 计划中 |
 | `07_RC522` | RFID / SPI | 计划中 |
 | `08_RS485` | RS485 / Modbus RTU | 计划中 |
 | `09_ESP8266` | UART / Wi-Fi | 计划中 |
@@ -102,7 +106,7 @@ FreeRTOS
 - [ ] UART 串口通信
 - [ ] I²C 与 SPI
 - [ ] 传感器驱动开发
-- [ ] 显示屏与图形界面
+- [ ] 7 寸 TFT LCD 与图形界面
 - [ ] RFID 射频识别
 - [ ] RS485 / Modbus
 - [ ] ESP8266 网络通信
