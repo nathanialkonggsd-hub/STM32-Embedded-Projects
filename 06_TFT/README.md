@@ -1,17 +1,24 @@
-# 06 — TFT Display
+# 06 — TFT 液晶显示
 
-## Objective
+## 项目目标
 
-Drive a larger TFT display and move from character output to a graphical user interface.
+驱动较大尺寸 TFT 液晶屏，从简单字符显示进一步学习图形绘制和嵌入式图形界面设计。
 
-## Planned Topics
+## 学习内容
 
-- SPI or parallel display interface
-- Display initialization
-- Fonts and graphics
-- Touch interaction where supported
-- UI layout and refresh optimization
+- SPI 或并行液晶接口
+- 液晶初始化流程
+- 字库与文字显示
+- 点、线、矩形等基础图形绘制
+- 图片显示
+- 触摸交互（硬件支持时）
+- 界面布局
+- 局部刷新与刷新效率优化
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
