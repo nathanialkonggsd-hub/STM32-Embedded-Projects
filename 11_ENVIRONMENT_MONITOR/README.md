@@ -1,18 +1,25 @@
-# 11 — Environment Monitor
+# 11 — 综合环境监测终端
 
-## Objective
+## 项目目标
 
-Build a network-connected monitoring terminal using sensors, display and ESP8266.
+使用传感器、显示屏和 ESP8266，构建一个具有网络通信能力的环境监测终端。
 
-## Planned Features
+## 计划功能
 
-- Temperature / environmental data acquisition
-- Sensor data display
-- Historical or periodic sampling
-- Wi-Fi data transmission
-- Local dashboard or HTTP interface
-- Modular sensor and communication drivers
+- 温度及环境数据采集
+- 传感器数据实时显示
+- 周期性数据采样
+- 历史数据或简单数据记录
+- Wi-Fi 数据传输
+- 局域网数据查看
+- HTTP 接口
+- 模块化传感器驱动
+- 模块化通信驱动
 
-## Status
+## 系统目标
 
-🚧 Planned
+将传感器采集、数据显示、数据处理和网络通信整合起来，进一步训练嵌入式系统的模块化设计能力。
+
+## 状态
+
+🚧 计划中
