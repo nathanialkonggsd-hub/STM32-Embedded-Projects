@@ -1,17 +1,23 @@
-# 02 — KEY / EXTI
+# 02 — 按键 / 外部中断
 
-## Objective
+## 项目目标
 
-Learn GPIO input and external interrupt handling with STM32F103ZET6.
+学习 STM32 GPIO 输入、外部中断 EXTI 和 NVIC 中断管理，理解从轮询式程序向事件驱动程序的过渡。
 
-## Planned Topics
+## 学习内容
 
-- Key input and pull-up/pull-down
-- EXTI configuration
-- NVIC interrupt priority
-- Interrupt debounce
-- Event-driven programming
+- 按键输入与上拉 / 下拉
+- GPIO 输入模式配置
+- EXTI 外部中断配置
+- NVIC 中断优先级
+- 按键消抖
+- 中断服务函数
+- 事件驱动编程思想
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
