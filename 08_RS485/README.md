@@ -1,17 +1,23 @@
 # 08 — RS485 / Modbus RTU
 
-## Objective
+## 项目目标
 
-Learn industrial serial communication and implement a basic RS485 / Modbus RTU node.
+学习工业现场常用的串行通信方式，使用 STM32 实现基础 RS485 节点，并进一步掌握 Modbus RTU 通信。
 
-## Planned Topics
+## 学习内容
 
-- UART and RS485 transceiver control
-- Half-duplex communication
-- Modbus RTU frame structure
-- CRC checking
-- Register-oriented device communication
+- UART 串口通信
+- RS485 收发器控制
+- 半双工通信
+- Modbus RTU 帧结构
+- CRC 校验
+- 寄存器式设备通信
+- 主从设备通信思路
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
