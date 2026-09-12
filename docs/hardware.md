@@ -1,26 +1,30 @@
-# Hardware Inventory
+# 硬件清单
 
-## MCU
+本文档记录当前已经拥有、正在使用以及后续计划添置的嵌入式硬件。
 
-- STM32F103ZET6 Elite Development Board
-- STC89C52 Puzhong 51 Development Board
+## 单片机平台
 
-## Currently Available Modules
+- STM32F103ZET6 精英开发板
+- STC89C52 普中 51 开发板
 
-- MPU6050
-- ESP8266
-- OLED
-- Breadboard
+## 当前已有模块
 
-## Planned Modules
+- MPU6050 姿态传感器模块
+- ESP8266 Wi-Fi 模块
+- OLED 显示模块
+- 面包板
 
-- SPI TFT LCD
-- RC522 RFID
-- MAX485 / RS485
-- HC-SR04 ultrasonic sensor
-- SG90 servo
-- 4×4 matrix keypad
-- DS18B20
-- TB6612FNG motor driver
+## 后续计划添置
 
-> The inventory will be updated as hardware is acquired and tested.
+- SPI TFT 液晶屏
+- RC522 RFID 射频识别模块
+- MAX485 / RS485 模块
+- HC-SR04 超声波测距模块
+- SG90 舵机
+- 4×4 矩阵键盘
+- DS18B20 温度传感器
+- TB6612FNG 电机驱动模块
+
+## 记录原则
+
+随着硬件不断购入和实际测试，持续更新本清单，并记录每个模块的型号、接口、电源要求、接线方式以及适用项目。
