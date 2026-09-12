@@ -1,21 +1,28 @@
 # 05 — MPU6050
 
-## Objective
+## 项目目标
 
-Read motion data from the MPU6050 and build a reusable I²C sensor driver.
+读取 MPU6050 的运动数据，理解传感器寄存器操作，并完成一个可复用的 I²C 传感器驱动。
 
-## Planned Topics
+## 学习内容
 
-- MPU6050 register map
-- Accelerometer and gyroscope data
-- I²C register read/write
-- Raw data conversion
-- Simple attitude estimation
+- MPU6050 寄存器结构
+- 加速度计数据读取
+- 陀螺仪数据读取
+- I²C 寄存器读写
+- 原始数据转换
+- 加速度与角速度物理量换算
+- 基础姿态估计
 
-## Hardware
+## 硬件
 
-MPU6050 module
+- MPU6050 模块
+- STM32F103ZET6
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
