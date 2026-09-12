@@ -1,39 +1,39 @@
-# STM32 Embedded Projects
+# STM32 嵌入式项目
 
-> A long-term collection of STM32 embedded projects, experiments, drivers, communication protocols and practical applications.
+> 一个长期维护的 STM32 嵌入式学习与实践项目库，记录单片机实验、驱动开发、通信协议以及综合应用项目。
 
-## 🎯 Project Goal
+## 🎯 项目目标
 
-This repository records my hands-on learning path from basic MCU programming to complete embedded systems.
+本仓库用于记录从单片机基础编程，到驱动开发、通信协议，再到完整嵌入式系统的实践过程。
 
-The main platform is **STM32F103ZET6**, with **STC89C52** as a complementary 51 MCU platform for learning low-level MCU fundamentals.
+主要开发平台为 **STM32F103ZET6**，同时使用 **STC89C52** 作为 51 单片机辅助学习平台，用于巩固单片机底层基础。
 
-## 🧰 Current Hardware
+## 🧰 当前硬件
 
-### MCU Platforms
-- STM32F103ZET6 Elite Development Board
-- STC89C52 Puzhong 51 Development Board
+### 单片机平台
+- STM32F103ZET6 精英开发板
+- STC89C52 普中 51 开发板
 
-### Existing Modules
+### 已有模块
 - MPU6050
 - ESP8266
 - OLED
-- Breadboard
+- 面包板
 
-### Planned Expansion
-- SPI TFT LCD
-- RC522 RFID
-- MAX485 / RS485
-- HC-SR04 ultrasonic sensor
-- SG90 servo
-- 4×4 matrix keypad
-- DS18B20
-- TB6612FNG motor driver
+### 后续计划添置
+- SPI TFT 液晶屏
+- RC522 RFID 射频识别模块
+- MAX485 / RS485 模块
+- HC-SR04 超声波测距模块
+- SG90 舵机
+- 4×4 矩阵键盘
+- DS18B20 温度传感器
+- TB6612FNG 电机驱动模块
 
-## 🗺️ Learning Roadmap
+## 🗺️ 学习路线
 
 ```text
-MCU Fundamentals
+单片机基础
       ↓
 GPIO / EXTI / UART / TIM / ADC
       ↓
@@ -41,7 +41,7 @@ I²C / SPI
       ↓
 OLED / MPU6050 / RC522 / TFT
       ↓
-PWM / Servo / Ultrasonic / Motor
+PWM / 舵机 / 超声波 / 电机
       ↓
 ESP8266 / Wi-Fi
       ↓
@@ -49,60 +49,62 @@ RS485 / Modbus RTU
       ↓
 FreeRTOS
       ↓
-Integrated Embedded Systems
+综合嵌入式系统
 ```
 
-## 📂 Project Structure
+## 📂 项目结构
 
-| Directory | Topic | Status |
+| 目录 | 项目主题 | 状态 |
 |---|---|---|
-| `01_GPIO_LED` | GPIO / LED | Planned |
-| `02_KEY_EXTI` | Key input / External interrupt | Planned |
-| `03_TIMER_PWM` | Timer / PWM | Planned |
-| `04_OLED` | OLED / I²C | Planned |
-| `05_MPU6050` | IMU / I²C | Planned |
-| `06_TFT` | TFT / SPI / GUI | Planned |
-| `07_RC522` | RFID / SPI | Planned |
-| `08_RS485` | RS485 / Modbus RTU | Planned |
-| `09_ESP8266` | UART / Wi-Fi | Planned |
-| `10_SMART_ACCESS_CONTROL` | Integrated RFID access control | Planned |
-| `11_ENVIRONMENT_MONITOR` | Integrated monitoring terminal | Planned |
+| `01_GPIO_LED` | GPIO / LED | 计划中 |
+| `02_KEY_EXTI` | 按键 / 外部中断 | 计划中 |
+| `03_TIMER_PWM` | 定时器 / PWM | 计划中 |
+| `04_OLED` | OLED / I²C | 计划中 |
+| `05_MPU6050` | 姿态传感器 / I²C | 计划中 |
+| `06_TFT` | TFT / SPI / 图形界面 | 计划中 |
+| `07_RC522` | RFID / SPI | 计划中 |
+| `08_RS485` | RS485 / Modbus RTU | 计划中 |
+| `09_ESP8266` | UART / Wi-Fi | 计划中 |
+| `10_SMART_ACCESS_CONTROL` | 综合智能门禁系统 | 计划中 |
+| `11_ENVIRONMENT_MONITOR` | 综合环境监测终端 | 计划中 |
 
-## 🧪 Development Principles
+## 🧪 项目记录规范
 
-Each project aims to document:
+每个项目尽量完整记录以下内容：
 
-1. Project objective
-2. Hardware list and wiring
-3. Software environment
-4. Peripheral configuration
-5. Source code structure
-6. Debugging process
-7. Problems encountered and solutions
-8. Demonstration results
-9. Possible improvements
+1. 项目目标
+2. 硬件清单与接线方式
+3. 软件开发环境
+4. 外设配置
+5. 源代码结构
+6. 调试过程
+7. 遇到的问题与解决方案
+8. 实际运行效果
+9. 后续优化方向
 
-## 🛠️ Development Environment
+## 🛠️ 开发环境
 
-- C / C++ where appropriate
+- C / C++
 - Keil MDK
-- STM32 standard peripheral libraries and/or HAL, depending on the project
+- STM32 标准外设库和/或 HAL 库，根据具体项目选择
 - Git / GitHub
 
-## 📌 Notes
+## 📌 仓库说明
 
-This repository is a continuously evolving personal embedded-systems lab. Early projects focus on understanding fundamentals; later projects emphasize reusable drivers, communication, RTOS and system-level integration.
+这是一个持续更新的个人嵌入式实验与项目仓库。前期重点学习单片机基础和常用外设，后期逐步加入可复用驱动、通信协议、RTOS 以及系统级项目开发。
 
-## 📈 Progress
+项目不仅记录最终代码，也记录硬件连接、调试过程、问题定位和工程化思路，使整个仓库能够作为长期学习档案和项目作品集。
 
-- [ ] STM32 GPIO fundamentals
-- [ ] Interrupts and timers
-- [ ] UART communication
-- [ ] I²C and SPI
-- [ ] Sensor drivers
-- [ ] Display and GUI
-- [ ] RFID
+## 📈 学习进度
+
+- [ ] STM32 GPIO 基础
+- [ ] 外部中断与定时器
+- [ ] UART 串口通信
+- [ ] I²C 与 SPI
+- [ ] 传感器驱动开发
+- [ ] 显示屏与图形界面
+- [ ] RFID 射频识别
 - [ ] RS485 / Modbus
-- [ ] ESP8266 networking
+- [ ] ESP8266 网络通信
 - [ ] FreeRTOS
-- [ ] Complete integrated project
+- [ ] 完整综合项目
