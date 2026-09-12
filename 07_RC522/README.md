@@ -1,17 +1,22 @@
-# 07 — RC522 RFID
+# 07 — RC522 RFID 射频识别
 
-## Objective
+## 项目目标
 
-Use the RC522 to implement RFID card detection and identification.
+使用 RC522 实现 RFID 卡片检测与 UID 读取，为后续智能门禁综合项目打下基础。
 
-## Planned Topics
+## 学习内容
 
-- SPI communication
-- RC522 registers and commands
-- RFID card UID reading
-- Basic access-control logic
-- Combining RFID with display and actuator control
+- SPI 通信
+- RC522 寄存器与指令
+- RFID 卡片检测
+- 卡片 UID 读取
+- 基础权限判断逻辑
+- RFID 与显示屏、蜂鸣器、舵机等外设联动
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
