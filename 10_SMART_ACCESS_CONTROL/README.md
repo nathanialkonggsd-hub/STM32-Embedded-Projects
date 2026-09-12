@@ -1,23 +1,39 @@
-# 10 — Smart Access Control
+# 10 — 综合智能门禁系统
 
-## Objective
+## 项目目标
 
-Integrate RFID, display, keypad, servo/actuator and STM32 control logic into a complete embedded access-control system.
+综合使用 RFID、显示屏、矩阵键盘、舵机或其他执行器以及 STM32 控制逻辑，完成一个具有实际产品雏形的嵌入式智能门禁系统。
 
-## Planned Features
+## 计划功能
 
-- RFID card authentication
-- PIN/keypad authentication
-- TFT/OLED status display
-- Servo or lock actuator
-- Access logs
-- Buzzer and status indicators
-- Modular driver architecture
+- RFID 卡片身份认证
+- 密码 / 矩阵键盘认证
+- TFT / OLED 状态显示
+- 舵机或电子锁执行机构
+- 访问记录
+- 蜂鸣器与状态指示
+- 模块化驱动程序
+- 多种认证方式的逻辑管理
+- 异常情况与错误提示
 
-## System Goal
+## 系统目标
 
-This is the first major system-level project in the repository, combining multiple buses and peripherals into one coherent product-like system.
+这是本仓库第一个较完整的系统级综合项目，将前面学习的多种通信总线、外设驱动和控制逻辑整合到一个具有明确功能的嵌入式产品中。
 
-## Status
+## 预计涉及技术
 
-🚧 Planned
+- GPIO
+- 定时器 / PWM
+- SPI
+- I²C
+- UART
+- RFID
+- 显示界面
+- 按键输入
+- 舵机控制
+- 状态机
+- 模块化软件设计
+
+## 状态
+
+🚧 计划中
