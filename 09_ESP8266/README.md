@@ -1,22 +1,29 @@
 # 09 — ESP8266 / Wi-Fi
 
-## Objective
+## 项目目标
 
-Connect STM32F103ZET6 to a Wi-Fi network through ESP8266 and build a basic IoT communication path.
+通过 ESP8266 将 STM32F103ZET6 接入 Wi-Fi 网络，建立从单片机到局域网或网络服务的数据通信链路。
 
-## Planned Topics
+## 学习内容
 
-- UART communication with ESP8266
-- AT command framework
-- Wi-Fi station mode
-- TCP / HTTP basics
-- Reliable command and response parsing
-- MCU-to-cloud or local-network communication
+- STM32 与 ESP8266 串口通信
+- AT 指令框架
+- Wi-Fi 工作模式
+- TCP 通信基础
+- HTTP 通信基础
+- 指令与响应解析
+- 通信超时与异常处理
+- 单片机与网络服务之间的数据交互
 
-## Hardware
+## 硬件
 
-ESP8266 module
+- ESP8266 模块
+- STM32F103ZET6
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
