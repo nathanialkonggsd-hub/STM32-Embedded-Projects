@@ -1,17 +1,22 @@
-# 01 — GPIO LED
+# 01 — GPIO / LED
 
-## Objective
+## 项目目标
 
-Learn STM32 GPIO configuration and basic output control through LED blinking.
+通过 LED 闪烁实验，学习 STM32 GPIO 的基本配置与输出控制，完成第一个真正的 STM32 工程。
 
-## Planned Topics
+## 学习内容
 
-- GPIO clock enable
-- Push-pull output
-- Delay and timing basics
-- Project structure
-- First Git commit for an embedded project
+- GPIO 外设时钟使能
+- 推挽输出配置
+- GPIO 电平控制
+- 延时与基础时序
+- STM32 工程目录结构
+- 第一次 Git 提交
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
