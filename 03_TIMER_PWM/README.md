@@ -1,17 +1,23 @@
-# 03 — TIMER / PWM
+# 03 — 定时器 / PWM
 
-## Objective
+## 项目目标
 
-Build a practical understanding of STM32 timers and PWM generation.
+通过实际实验掌握 STM32 定时器的基本工作原理，并学习使用 PWM 控制 LED 亮度和执行器。
 
-## Planned Topics
+## 学习内容
 
-- Basic timer configuration
-- Time-base calculation
-- Output compare
-- PWM frequency and duty cycle
-- LED dimming and actuator control
+- 定时器基本配置
+- 预分频器与自动重装载寄存器
+- 定时器计时与时间基准计算
+- 输出比较
+- PWM 频率与占空比
+- LED 呼吸灯 / 调光
+- PWM 对执行器的控制
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
