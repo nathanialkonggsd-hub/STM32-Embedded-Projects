@@ -1,41 +1,52 @@
-# Project Roadmap
+# 项目路线图
 
-## Phase 1 — Fundamentals
+本路线图用于规划整个 STM32 嵌入式项目的学习顺序。实际开发过程中，可以根据硬件条件和掌握程度动态调整。
+
+## 第一阶段——单片机基础
+
 - GPIO / LED
-- Key input / EXTI
-- Timer / PWM
-- UART
-- ADC
+- 按键输入 / 外部中断
+- 定时器 / PWM
+- UART 串口通信
+- ADC 模数转换
 
-## Phase 2 — Common Buses
+## 第二阶段——常用通信总线
+
 - I²C
 - SPI
-- OLED
-- MPU6050
+- OLED 显示
+- MPU6050 姿态传感器
 
-## Phase 3 — Practical Peripherals
-- TFT LCD
+## 第三阶段——实用外设
+
+- TFT 液晶屏
 - RC522 RFID
-- HC-SR04
-- SG90 servo
-- Matrix keypad
-- DS18B20
-- Motor driver
+- HC-SR04 超声波测距
+- SG90 舵机
+- 矩阵键盘
+- DS18B20 温度传感器
+- 电机驱动
 
-## Phase 4 — Communication
-- ESP8266 UART + Wi-Fi
+## 第四阶段——通信与联网
+
+- ESP8266 串口通信与 Wi-Fi
 - RS485
 - Modbus RTU
 
-## Phase 5 — System Integration
-- Smart access control
-- Environmental monitoring terminal
-- Data logging
-- Parameter configuration
+## 第五阶段——系统综合
 
-## Phase 6 — Advanced Embedded Development
+- 智能门禁系统
+- 环境监测终端
+- 数据记录
+- 参数配置
+- 多模块协同工作
+
+## 第六阶段——进阶嵌入式开发
+
 - DMA
 - FreeRTOS
-- Modular drivers
-- Fault handling
-- Performance optimization
+- 模块化驱动
+- 状态机设计
+- 故障处理
+- 性能优化
+- 系统级软件架构
