@@ -1,22 +1,35 @@
-# STM32 Notes
+# STM32 学习笔记
 
-A living notebook for STM32F103ZET6 development.
+这是一个持续更新的 STM32F103ZET6 学习笔记，用于记录原理、配置方法、调试经验以及可复用的开发经验。
 
-## Core Topics
+## 核心知识
 
-- GPIO
-- EXTI / NVIC
-- TIM / PWM
-- UART
-- ADC
-- I²C
-- SPI
-- DMA
-- RTC
-- Watchdog
-- Low-power modes
-- FreeRTOS
+- GPIO 通用输入输出
+- EXTI 外部中断
+- NVIC 中断控制
+- TIM 定时器
+- PWM 脉宽调制
+- UART 串口通信
+- ADC 模数转换
+- I²C 总线
+- SPI 总线
+- DMA 直接存储器访问
+- RTC 实时时钟
+- 看门狗
+- 低功耗模式
+- FreeRTOS 实时操作系统
 
-## Engineering Notes
+## 工程实践笔记
 
-Record register-level details, peripheral configuration, debugging findings, reusable driver patterns and lessons learned here as the projects progress.
+随着项目推进，持续记录以下内容：
+
+- 寄存器级原理
+- 外设配置方法
+- 时钟树与定时计算
+- 常见通信时序
+- Keil 工程配置
+- 硬件与软件调试方法
+- 常见错误及排查过程
+- 可复用驱动程序设计
+- 模块化软件结构
+- 实际项目中的经验与教训
