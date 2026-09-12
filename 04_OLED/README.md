@@ -1,21 +1,28 @@
 # 04 — OLED / I²C
 
-## Objective
+## 项目目标
 
-Use an OLED display to learn I²C communication and build a reusable display driver.
+使用 OLED 显示模块学习 I²C 通信，并编写可复用的 OLED 显示驱动。
 
-## Planned Topics
+## 学习内容
 
-- I²C basics
-- OLED initialization
-- Text and graphics rendering
-- Driver abstraction
-- Debugging bus communication
+- I²C 通信基础
+- I²C 设备地址
+- OLED 初始化流程
+- 字符与文字显示
+- 基础图形绘制
+- 显示驱动分层与封装
+- I²C 总线通信调试
 
-## Hardware
+## 硬件
 
-OLED module
+- OLED 显示模块
+- STM32F103ZET6
 
-## Status
+## 实验结果
 
-🚧 Planned
+待完成。
+
+## 状态
+
+🚧 计划中
